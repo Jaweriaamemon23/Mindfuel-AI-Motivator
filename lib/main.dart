@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
-import 'splash_screen.dart'; // Make sure the file exists
+import 'splash_screen.dart';
 import 'package:flutter/foundation.dart' show kIsWeb;
 
 Future<void> main() async {
@@ -17,7 +17,7 @@ class MindFuelApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'MindFuel',
+      title: 'MindFuel!',
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark().copyWith(
         scaffoldBackgroundColor: Colors.black,
